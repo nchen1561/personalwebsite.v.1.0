@@ -1,0 +1,38 @@
+.arial {
+	font-family: Arial;
+}
+h1 {
+	font-size: 80px;
+}
+h3 {
+	font-size: 40px;
+}
+h5 {
+	font-size: 30px;
+  margin-left: 40px;
+  margin-right: 800px;
+ 	vertical-align: bottom;
+  
+}
+body {
+	background: #BD77DD;
+	background: -webkit-linear-gradient(top left, #BD77DD, #FFFFFF);
+	background: -moz-linear-gradient(top left, #BD77DD, #FFFFFF);
+	background: linear-gradient(to bottom right, #BD77DD, #FFFFFF);
+}
+.box {
+	transition: box-shadow .10s;
+	width: 500px;
+	height: 300px;
+	margin: 50px;
+	border-radius: 30px;
+	border: 10px solid #ccc;
+	background: #fff;
+	float: left;
+	margin-right: 130px;
+  margin-left: 50px;
+	vertical-align: top;
+}
+.box:hover {
+	box-shadow: 0 0 50px rgba(255, 0, 0, 0.3);
+}
